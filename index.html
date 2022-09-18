@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="HU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="favicons/favicon.ico" id="fav">
+    <title>2048</title>
+</head>
+
+<body>
+    <div class="panel" id="panel">
+        <iframe class = "ad2" src="ad.html" scrolling="no" frameborder="0"></iframe>
+        <iframe class = "ad3" src="ad.html" scrolling="no" frameborder="0"></iframe>
+        <iframe class = "ad" src="ad.html" scrolling="no" frameborder="0"></iframe>
+        <div class="headings">
+            <h1 class="title">
+                <a href="">2048</a>
+            </h1>
+        </div>
+        <div class="game-intros">
+            <h2 class="subtitle">
+                Játsz 2048 játékkal Online
+            </h2>
+            <p class="above-game">
+                Párosítsd a számokat és érd el a <strong>2048</strong>-at!
+            </p>
+            <h2 class="subtitle">
+                Válassz módot:
+            </h2>
+            <div class="mods">
+                <p><strong style="color: darkgreen;">Easy:</strong></p>
+                <button class = "u" onclick="location.href='game_mods/256.html'" type="button">256</button>
+                <br>
+                <button class = "u" onclick="location.href='game_mods/512.html'" type="button">512</button>
+                <br><br>
+                <p><strong style="color: darkorange;" >Medium:</strong></p>
+                <button class = "u" onclick="location.href='game_mods/1024.html'" type="button">1024</button>
+                <br>
+                <button class = "u" onclick="location.href='game_mods/2048.html'" type="button">2048</button>
+                <br><br>
+                <p><strong style="color: darkred;">Hard:</strong></p>
+                <button class = "u" onclick="location.href='game_mods/4096.html'" type="button">4096</button>
+                <br><br>
+                <p><strong style="color: black;">Impossible:</strong></p>
+                <button class = "u" onclick="location.href='game_mods/8192.html'" type="button">8192</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
